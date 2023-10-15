@@ -22,7 +22,7 @@ I'll need create two financial analysis tools with a single Jupyter notebook:
 
 ## Instructions on how to use 
 
-### 1. Launch whale_analysis.ipynb from JuypterLab
+### 1. Launch financial-planner.ipyb from JuypterLab
 * Run through each line of code to view the output
 
 
