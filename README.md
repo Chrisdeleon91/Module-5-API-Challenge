@@ -1,28 +1,24 @@
 # Module-5-APIs-Challenge
 
-#From Weekly Module Overview E-mail
+In this assignment, I will use the information from the Monte Carlo simulation to answer questions about the portfolio in my Jupyternotebook.
+In this module, I learned how to measure and analyze long-term future performance using Application Programming Interfaces (APIs) and Monte Carlo simulations.
 
-In this assignment, I used what I've learned this week to evaluate the performance among various algorithmic, hedge and mutual fund portfolios and compare them against the S&amp;P 500 Index. 
-In this module, I learned how to use Pandas and the JupyterLab IDE to collect, prepare, and analyze financial data.
+I have decided to start a fintech consulting firm that focuses on projects to benefit local communities. I've just won my first contract with a large credit union. The project entails building a tool to help credit union members evaluate their financial health. Specifically, the credit union board wants the members to be able to do two things. First, they should be able to assess their monthly budgets. Second, they should be able to forecast a reasonably effectiveretirement plan based on their current holdings of cryptocurrencies, stocks, and bonds. The chief technology offi cer(CTO) of the credit union wants me to develop a prototype application to present at its next assembly.
 
-#
-## 1. A Whale off the Port(folio)
+What I'm Creating
+I'll need create two financial analysis tools with a single Jupyter notebook:
+1. A financial planner for emergencies. The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund.
+  
+2. A financial planner for retirement. This tool will forecast the performance of their retirement portfolio in 30 years. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in MonteCarlo simulations. I'll use the information from the Monte Carlo simulation to answer questions about the portfolio in my Jupyternotebook.
 
-##From Module 4 Challenge Info
-
-I have been investing in algorithmic trading strategies. Some of the investment managers love them, some hate them, but they all think their way is best.
-I've just learned these quantitative analysis techniques with Python and Pandas and I want to determine which portfolio is performing the best across multiple areas:volatility, returns, risk, and Sharpe ratios.
-I need to create a tool (an analysis notebook) that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. I will be given the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios offamous "whale" investors like Warren Buffett and some from the big hedge and mutual funds. I will then use this analysis to create a custom portfolio of stocks and compareits performance to that of the other portfolios, as well as the larger market [S&P 500 Index](https://en.wikipedia.org/wiki/S%26P/TSX_60).
-
-
-* Prepare the Data
-* Perform Quantitative Analysis
-  * Performance Analysis
-  * Risk Analysis
-  * Rolling Statistics
-  * Rolling Statistics Challenge: Exponentially Weighted Average
-  * Sharpe Ratios
-* Create a Custom Portfolio
+* Create a Financial Planner for Emergencies
+  * Evaluate the Cryptocurrency Wallet by Using the Requests Library
+  * Evaluate the Stock and Bond Holdings by Using the Alpaca SDK
+  * Evaluate the Emergency Fund
+* Create a Financial Planner for Retirement
+  * Create the Monte Carlo Simulation
+  * Analyze the Retirement Portfolio Forecasts
+  * Forecast Cumulative Returns in 10 Years
 
 ## Instructions on how to use 
 
